@@ -3,6 +3,8 @@ Multi Character Feature for QB-Core Framework :people_holding_hands:
 
 Added support for setting default number of characters per player per Rockstar license
 
+- server side fixed ✅
+
 # License
 
     QBCore Framework
