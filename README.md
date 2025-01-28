@@ -32,8 +32,10 @@ Added support for setting default number of characters per player per Rockstar l
 - [qb-weathersync](https://github.com/qbcore-framework/qb-weathersync) - For adjusting the weather while player is creating a character.
 
 ## Screenshots
-![Character Selection](soon)
-![Character Registration](soon)
+![Character Selection](![image](https://github.com/user-attachments/assets/cd5b4991-73b0-4a44-82cd-c9ca578668de)
+)
+![Character Registration](![image](https://github.com/user-attachments/assets/0c81d679-d4bf-411b-84dc-83b607d30c88)
+)
 
 ## Features
 - Ability to create up to 5 characters and delete any character.
