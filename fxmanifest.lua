@@ -20,6 +20,7 @@ files {
     'html/profanity.js',
     'html/script.js',
     'html/male_pos.png',
+    'html/female_pos.png',
     'html/logo_main.png'
 }
 

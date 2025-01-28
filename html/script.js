@@ -184,12 +184,12 @@ $(document).on('click', '.Expert-Register-ImageStyle', function(e){
     var genders = $(this).data('gender');
     if(genders == "man"){
         SelectedCharGender = "Male"
-        $('#Expert-man').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878350193475588146/male2.png');
-        $('#Expert-woman').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878254563063369818/female.png');
+        $('#Expert-man').attr('src','male_pos.png');
+        $('#Expert-woman').attr('src','female_pos.png');
     }else{
         SelectedCharGender = "Female"
-        $('#Expert-woman').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878350146792984616/female2.png');
-        $('#Expert-man').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878254579622502471/male.png');
+        $('#Expert-woman').attr('src','female_pos.png');
+        $('#Expert-man').attr('src','male_pos.png');
     }
 });
 
@@ -229,8 +229,8 @@ function RefreshExpertData() {
     $(".SelectChar-SpawnChar").css({"background":"#373737"});
     $(".SelectChar-header").html("Select a Character");
     $('.BlackScreenForNotAbuse').fadeOut(150);
-    $('#Expert-woman').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878254563063369818/female.png');
-    $('#Expert-man').attr('src','https://cdn.discordapp.com/attachments/877595408325574656/878254579622502471/male.png');
+    $('#Expert-woman').attr('src','female_pos.png');
+    $('#Expert-man').attr('src','male_pos.png');
 
     $("#firstname").val("");
     $("#lastname").val("");
