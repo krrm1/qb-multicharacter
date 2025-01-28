@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>QB-Multicharacter</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="main-screen">
+                <div class="welcomescreen">
+                    <div id="div1" class="rectangle1"></div>
+                    <div id="div1" class="rectangle2"></div>
+                    <img class="logo" src="logo_main.png"></img>
+                </div>
+
+                <div class="SelectChar-NewMenu">
+                    <div class="SelectChar-header">Select a Character</div>
+                    <div class="SelectChar-Border-Btn"></div>
+                    <div class="SelectChar-DeleteChar BodyNewMenu">DELETE</div>
+                    <div class="SelectChar-SpawnChar BodyNewMenu">SPAWN <i class="fas fa-map"></i></div>
+                </div>
+
+                <div class="SelectChar-NUI-New">
+
+                </div>
+
+
+                <div class="Expert-NewCharacterRegister">
+                    <div class="Expert-RegisterMainMenu">
+                        <div class="Expert-Register-ChooseGender">
+                            <img data-gender="man" id="Expert-man" class="Expert-Register-ImageStyle" style="float: left;" src="logo_main.png">
+                            <img data-gender="woman" id="Expert-woman" class="Expert-Register-ImageStyle" style="float: right; transform: scaleX(-1);" src="logo_main.png">
+                        </div>
+                        <div class="Expert-Register-FormUser">
+                            <div class="Expert-Register-Label">
+                                <div class="ExperttextBodyForm">First Name</div>
+                                <input id="firstname" class="Expert-Register-InputStyle" type="text"/>
+                            </div>
+
+                            <div class="Expert-Register-Label">
+                                <div class="ExperttextBodyForm">Last Name</div>
+                                <input id="lastname" class="Expert-Register-InputStyle" type="text"/>
+                            </div>
+
+                            <div class="Expert-Register-Label">
+                                <div class="ExperttextBodyForm">Nationality</div>
+                                <input id="nationality" class="Expert-Register-InputStyle" type="text"/>
+                            </div>
+
+                            <div class="Expert-Register-Label">
+                                <div class="ExperttextBodyForm">Born</div>
+                                <input id="born" class="Expert-Register-InputStyle" min="1900-01-01" max="2999-12-31" type="date"/>
+                            </div>
+
+                            <div class="Expert-Register-Label" style="margin-left: 12%;">
+                                <div class="Expert-Register-btn-main RegisterRed">CANCEL</div>
+                                <div class="Expert-Register-btn-main RegisterGreen">CREATE</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="BlackScreenForNotAbuse">
+                    <div class="character-delete">
+                        <div class="characters-delete-block-header">
+                            <p>Delete Character</p>
+                        </div>
+
+                        <p>Are You Sure You Want To Delete Your Character?</p>
+
+                        <div class="character-acceptdel-btn" id="accept-delete"><p id="accept-text">Confirm</p></div>
+                        <div class="character-canceldel-btn" id="cancel-delete"><p id="cancel-text">Return</p></div>
+                    </div>
+                </div>
+
+                <div class="NewbtnExpertMulti">
+                    <div id="CreateCharExpert" class="NewBTN-ClassStyleSheet"><i class="fas fa-plus"></i></div>
+                    <div id="HelpExpert" class="NewBTN-ClassStyleSheet"><i class="fas fa-question"></i></div>
+                    <div id="RefreshExpert" class="NewBTN-ClassStyleSheet"><i class="fas fa-redo-alt"></i></div>
+                </div>
+
+                <div class="expertHelpMenu">
+                    <div class="ExpertHelpMainMenu">
+                        <div class="HelpMenuHeaderText">Help Menu</div>
+                        <br/>
+                        <p>Single click - Select character</p>
+                        <p>Double click - Spawn selected character</p>
+                        <p>Hover - Display current character</p>
+                        <p>Icon - Lower left plus icon</p>
+                        <p>Icon - Question mark to Toggle menu</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="profanity.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
