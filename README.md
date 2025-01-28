@@ -34,6 +34,8 @@ Added support for setting default number of characters per player per Rockstar l
 ## Screenshots
 ![Character Selection](https://github.com/user-attachments/assets/356cb1c1-fed0-4858-939e-e3ad7e3d7c9b)
 ![Character Registration](https://github.com/user-attachments/assets/ca6075b4-fcac-43f8-b691-63dd42837baf)
+![Opeing Logo](https://github.com/user-attachments/assets/7054349b-7e89-4923-a991-20f826ea84dd)
+
 
 
 ## Features
