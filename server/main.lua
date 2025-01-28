@@ -170,7 +170,7 @@ QBCore.Functions.CreateCallback("qb-multicharacter:server:SetupNewCharacter", fu
                 v
             }
             if not result[1] or not result[1].skin then
-                print('Missing Player Skin in playerskins. Check if there is a player without a skin and delete it to fix this.')
+                print('Missing Player Skin in playerskins. Check if there is a player without a skin and delete it to fix this.') -- notify if there was an bug with player model
             end
         end
         cb(plyChars)
